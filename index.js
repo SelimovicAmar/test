@@ -32,7 +32,9 @@ button3.addEventListener("click", ()=>{
     Render(36)
 })
 
-
+function Shuffle(z) {
+    z.sort((a, b) => 0.5 - Math.random());
+}
 
 function Render(x) {
 
@@ -104,9 +106,4 @@ function Render(x) {
                             //die nach einer Verzögerung von 1 Sekunde (1000 Millisekunden) ausgeführt wird.
         })
     }
-}
-
-
-function Shuffle(z) {
-    z.sort((a, b) => 0.5 - Math.random());
 }
