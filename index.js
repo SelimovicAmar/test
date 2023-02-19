@@ -101,9 +101,6 @@ function Render(x) {
                 }
                 
             }
-                            //überprüft, ob die Zahl des vorherigen ausgewählten Elements (vorher.zahl) ungleich der Zahl des aktuell ausgewählten 
-                            //Elements (a[i].children[0].textContent) ist. Wenn ja, wird eine setTimeout-Funktion ausgelöst, 
-                            //die nach einer Verzögerung von 1 Sekunde (1000 Millisekunden) ausgeführt wird.
         })
     }
 }
